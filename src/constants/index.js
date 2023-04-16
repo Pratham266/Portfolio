@@ -29,7 +29,8 @@ import {
   googleauth ,
   newsapp ,
   textutils,
-  resume,  
+  resume, 
+  portfolio, 
 } from "../assets";
 
 export const navLinks = [
@@ -297,6 +298,27 @@ const projects = [
     ],
     image: googleauth,
     source_code_link: "https://github.com/Pratham266/GoogleAuth_Frontend",
+  },
+  {
+    name: "Portfolio Web Application",
+    description:
+    "Portfolio website built with Three.js and Vite for dynamic and visually engaging web experiences.",
+    tags: [
+      {
+        name: "vite",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "threejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: portfolio,
+    source_code_link: "https://github.com/Pratham266/Portfolio",
   },
   {
     name: "Text Util",

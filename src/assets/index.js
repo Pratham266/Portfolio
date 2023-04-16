@@ -35,7 +35,7 @@ import googleauth from './googleauth.png';
 import newsapp from './newsapp.png';
 import textutils from './textutils.png';
 import resume from './resume.pdf';
-
+import portfolio from './portfolio.png';
 export {
   logo,
   backend,
@@ -71,4 +71,5 @@ export {
   newsapp ,
   textutils,
   resume,
+  portfolio,
 };
